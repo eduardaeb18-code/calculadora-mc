@@ -1,0 +1,10 @@
+2026-07-17 13:02:40,915 - INFO - Processing request of type ListToolsRequest
+2026-07-17 13:02:40,918 - INFO - Processing request of type ListPromptsRequest
+2026-07-17 13:02:40,921 - INFO - Processing request of type ListResourcesRequest
+2026-07-17 13:03:38,344 - INFO - Processing request of type CallToolRequest
+2026-07-17 13:03:38,345 - INFO - Tool calcular chamada: operacao=soma, a=5.0,b=2.0
+2026-07-17 13:06:37,274 - INFO - Processing request of type CallToolRequest
+2026-07-17 13:06:37,275 - INFO - Tool conversao chamada: conversao=celsius_para_fahrenheit, valor=20.0
+2026-07-17 13:55:27,078 - ERROR - Received exception from stream: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='pytest -v\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
