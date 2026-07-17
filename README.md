@@ -35,9 +35,7 @@ pip install -r requirements.txt
 ```
 
 ## Configuração no Claude Desktop
-
-Para ligar o servidor ao Claude Desktop, foi utilizada a seguinte configuração no ficheiro `claude_desktop_config.json`:
-
+No Claude Desktop, abri as **Configurações**, entrei na área **Desenvolvedor** e cliquei em **Editar configuração**. Foi aberta a pasta onde se encontra o ficheiro `claude_desktop_config.json`. Abri esse ficheiro, adicionei a configuração abaixo, guardei as alterações e reiniciei completamente a aplicação.
 ```json
 {
   "mcpServers": {
